@@ -29,7 +29,7 @@ namespace projAndreTurismoMongoDbAPI.Controllers
         }
 
         [HttpPost]
-        public ActionResult<City> Create(City city) => _cityService.Create(city);
+        public ActionResult<City> Create(City city) => _cityService.Insert(city);
 
         [HttpPut("{id:length(24)}", Name = "PutCity")]
         public ActionResult Update(string id, City city)

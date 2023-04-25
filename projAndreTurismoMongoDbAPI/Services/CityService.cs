@@ -16,7 +16,7 @@ namespace projAndreTurismoMongoDbAPI.Services
 
         public List<City> Get() => _city.Find(c => true).ToList();
         public City Get(string id) => _city.Find(c => c.Id == id).FirstOrDefault();
-        public City Create(City city)
+        public City Insert(City city)
         {
             _city.InsertOne(city);
             return city;
