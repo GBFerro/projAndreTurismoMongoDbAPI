@@ -10,8 +10,8 @@ namespace projAndreTurismoMongoDbAPI.Models
         public string Id { get; set; }
         public string Street { get; set; }
         public int Number { get; set; }
-        public string District { get; set; }
-        public string ZipCode { get; set; }
+        public string Neighborhood { get; set; }
+        public string PostCode { get; set; }
         public string? Complement { get; set; }
         public City City { get; set; }
         public DateTime RegisterDate { get; set; }

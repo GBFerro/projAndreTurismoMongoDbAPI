@@ -7,13 +7,12 @@ namespace projAndreTurismoMongoDbAPI.Services
     public class AddressService
     {
         private readonly IMongoCollection<Address> _address;
-        private readonly IMongoCollection<City> _city;
+
         public AddressService(IProjATMSettings settings)
         {
             var address = new MongoClient(settings.ConnectionString);
             var database = address.GetDatabase(settings.DatabaseName);
             _address = database.GetCollection<Address>(settings.AddressCollectionName);
-            _city = database.GetCollection<City>(settings.CityCollectionName);
         }
 
         public List<Address> Get() => _address.Find(a => true).ToList();
