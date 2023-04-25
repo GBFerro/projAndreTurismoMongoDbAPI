@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projAndreTurismoMongoDbAPI", "projAndreTurismoMongoDbAPI\projAndreTurismoMongoDbAPI.csproj", "{E672AC30-8ED1-4BD8-AFE9-3CC9B0855387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E672AC30-8ED1-4BD8-AFE9-3CC9B0855387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E672AC30-8ED1-4BD8-AFE9-3CC9B0855387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E672AC30-8ED1-4BD8-AFE9-3CC9B0855387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E672AC30-8ED1-4BD8-AFE9-3CC9B0855387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FB0DE45-051C-4D98-A492-0C02E603578F}
+	EndGlobalSection
+EndGlobal
